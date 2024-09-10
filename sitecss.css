@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.lockButton {
+  top: 400px;
+  position: absolute;
+  background-color: #2fa7c5;
+  height: 300px;
+  width: 300px;
+  transform: scale(0.3);
+  box-shadow: 0 0 50px #2fa7c5;
+  transition: 0.5s ease all;
+}
+.lockBottom {
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 150px;
+  left: 75px;
+  top: 125px;
+  border-radius: 20%;
+  transition: top ease 0.4s;
+}
+.lockTop {
+  position: absolute;
+  background-color: transparent;
+  height: 55px;
+  width: 50px;
+  border: 20px solid white;
+  border-radius: 30% 30% 0 0;
+  border-bottom-width: 0px;
+  left: 105px;
+  top: 55px;
+  transition: top ease 0.4s;
+}
+.lockButton:hover .lockTop {
+  top: 35px;
+}
+.lockButton:hover .lockBottom {
+  top: 145px;
+}
+.lockButton:hover {
+  transform: scale(0.4);
+  box-shadow: 0 0 250px #2fa7c5;
+}
+
+.girisEkran {
+  position: absolute;
+  height: 300px;
+  width: 700px;
+  top: 140px;
+  border-radius: 30px;
+  transition: 1s ease all;
+}
+.girisEkran input {
+  font-family: "Exo";
+  position: absolute;
+  width: 500px;
+  height: 70px;
+  border: 5px solid #1d1d1d;
+
+  box-shadow: 0 0 20px #2fa7c5;
+  border-radius: 20px;
+  justify-content: center;
+  color: #2fa7c5;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.5s ease all;
+}
+.mailGiris {
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+.sifreGiris {
+  position: absolute;
+  right: 100px;
+  top: 140px;
+}
+input::placeholder {
+  text-align: center;
+  font-family: "Exo";
+  font-weight: bold;
+  opacity: 0.5;
+  color: #2fa7c5;
+}
+.girisEkran input:focus {
+  box-shadow: 0 0 100px #2fa7c5;
+}
+
+.kayit {
+  position: absolute;
+  left: 150px;
+}
+.sifre {
+  position: absolute;
+  right: 150px;
+}
+.girisEkran .linkler {
+  font-weight: bold;
+  font-family: "Exo";
+  bottom: 20px;
+  font-size: 20px;
+  color: #2fa7c5;
+  text-decoration: none;
+  transition: 0.5s ease all;
+}
+.girisEkran .linkler:hover {
+  transform: scale(1.1);
+}
+.gri {
+  background-color: #353535;
+}
+.siyah {
+  background-color: #252525;
+}
+.beyaz {
+  background-color: blanchedalmond;
+}
+.sari {
+  background-color: #e4f168;
+}
+.darkModeBtn {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  right: 100px;
+  top: 100px;
+  border-radius: 25px;
+}
+.darkModeBtn .circle {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  text-align: center;
+  transition: 1s ease all;
+}
