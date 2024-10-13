@@ -6,7 +6,10 @@
   display: flex;
   position: relative;
 }
-
+div{
+user-select: none;
+  
+}
 .lockButton {
   top: 400px;
   position: absolute;
